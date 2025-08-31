@@ -1,11 +1,19 @@
 pipeline {
 
   environment {
+<<<<<<< HEAD
     PROJECT = "REPLACE_WITH_YOUR_PROJECT_ID"
     APP_NAME = "gceme"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "jenkins-cd"
     CLUSTER_ZONE = "us-east1-d"
+=======
+    PROJECT = "qwiklabs-gcp-03-82c9ac6dba22"
+    APP_NAME = "gceme"
+    FE_SVC_NAME = "${APP_NAME}-frontend"
+    CLUSTER = "jenkins-cd"
+    CLUSTER_ZONE = "us-west1-b"
+>>>>>>> 90c5ba8200e24bcbfae6c8357328d097a1ffaf56
     IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
     JENKINS_CRED = "${PROJECT}"
   }

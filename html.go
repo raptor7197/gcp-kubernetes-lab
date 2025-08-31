@@ -34,7 +34,11 @@ const (
 <div class="col s8">
 
 
+<<<<<<< HEAD
 <div class="card blue">
+=======
+<div class="card orange">
+>>>>>>> 90c5ba8200e24bcbfae6c8357328d097a1ffaf56
 <div class="card-content white-text">
 <div class="card-title">Backend that serviced this request</div>
 </div>
