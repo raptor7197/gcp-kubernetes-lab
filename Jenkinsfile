@@ -2,11 +2,11 @@ pipeline {
 
   environment {
 <<<<<<< HEAD
-    PROJECT = "REPLACE_WITH_YOUR_PROJECT_ID"
+    PROJECT = "qwiklabs-gcp-02-0324a9f4a6bf"
     APP_NAME = "gceme"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "jenkins-cd"
-    CLUSTER_ZONE = "us-east1-d"
+    CLUSTER_ZONE = "us-east4-b"
 =======
     PROJECT = "qwiklabs-gcp-03-82c9ac6dba22"
     APP_NAME = "gceme"
