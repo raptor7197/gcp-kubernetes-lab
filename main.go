@@ -44,7 +44,7 @@ type Instance struct {
 }
 
 <<<<<<< HEAD
-const version string = "1.0.0"
+const version string = "2.0.0"
 =======
 const version string = "2.0.0"
 >>>>>>> 90c5ba8200e24bcbfae6c8357328d097a1ffaf56
